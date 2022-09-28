@@ -1,0 +1,186 @@
+body {
+    font-family: "poppins";
+    color: #656565;
+}
+
+/* ?text-color */
+
+.text-green-limon {
+    color: #7ab730;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #212121;
+}
+
+/* *texto-styles */
+.text-center {
+    text-align: center;
+}
+
+/* *border */
+.bright-grey {
+    border-right: 1px solid #656565;
+}
+
+.b-rgba-grey {
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.b-green {
+    border: 2px solid #7ab730;
+}
+
+
+/* *height */
+.lh-40 {
+    line-height: 40px;
+}
+
+.h-15p {
+    height: 15px;
+}
+
+.h-30vh {
+    height: 30vh;
+}
+
+/* *width */
+
+/* *padding */
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.p-button {
+    padding: 10px 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+/* *margin */
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-7 {
+    margin-left: 7px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+/* *font-size */
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-27 {
+    font-size: 27px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-55 {
+    font-size: 55px;
+}
+
+/* *background */
+
+.bg-primary-01 {
+    background-image: url(../images/carousel-1.jpg);
+}
+
+.bg-primary-02 {
+    background-image: url(../images/carousel-2.jpg);
+}
+
+.bg-green-limon {
+    background-color: #7ab730;
+}
+
+.bg-cape {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+/* *image */
+
+.pack-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
