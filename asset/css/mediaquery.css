@@ -1,0 +1,152 @@
+/* ?___________________________________________tablet____________________________________ */
+@media screen and (min-width:768px) {
+
+    /* *height________________________________________________________________ */
+    .lh-md-45 {
+        line-height: 45px;
+    }
+
+    .lh-md-65 {
+        line-height: 65px;
+    }
+
+    .h-md-67vh {
+        height: 67vh;
+    }
+
+    /* *____________________________________________________________________width */
+
+    /* *font-size_________________________________________________________________ */
+    .fs-md-16 {
+        font-size: 16px;
+    }
+
+    .fs-md-23 {
+        font-size: 23px;
+    }
+
+    .fs-md-25 {
+        font-size: 25px;
+    }
+
+    .fs-md-33 {
+        font-size: 33px;
+    }
+
+    .fs-md-55 {
+        font-size: 55px;
+    }
+
+    /* *___________________________________________________________________clases especiales */
+
+    .ttraslateY-md--105 {
+        transform: translateY(-105px);
+    }
+
+    /* *padding______________________________________________________________________________ */
+    .pt-md-6 {
+        padding-top: 6px;
+    }
+
+    .pt-md-16 {
+        padding-top: 16px;
+    }
+
+    .pb-md-6 {
+        padding-bottom: 6px;
+    }
+
+    .pb-md-16 {
+        padding-bottom: 16px;
+    }
+
+    .pr-md-40 {
+        padding-right: 40px;
+    }
+
+    .pr-md-15 {
+        padding-right: 15px;
+    }
+
+    .pr-md-12 {
+        padding-right: 12px;
+    }
+
+    .pr-md-10 {
+        padding-right: 10px;
+    }
+
+    .pl-md-40 {
+        padding-left: 40px;
+    }
+
+    .pl-md-15 {
+        padding-left: 15px;
+    }
+
+    .pl-md-12 {
+        padding-left: 12px;
+    }
+
+    .pl-md-10 {
+        padding-left: 10px;
+    }
+
+    /* *______________________________________________________________________________margin */
+
+    .mt-md-10 {
+        margin-top: 10px;
+    }
+
+    .mt-md-20 {
+        margin-top: 20px;
+    }
+
+    .mt-md-45 {
+        margin-top: 45px;
+    }
+
+    .mt-md-100 {
+        margin-top: 100px;
+    }
+
+    .mb-md-30 {
+        margin-bottom: 30px;
+    }
+
+    .mb-md-15 {
+        margin-bottom: 15px;
+    }
+
+    .mb-md-10 {
+        margin-bottom: 10px;
+    }
+
+    .mb-md-0 {
+        margin-bottom: 0px;
+    }
+
+    .ml-md-10 {
+        margin-left: 10px;
+    }
+
+    .mr-md-10 {
+        margin-right: 10px;
+    }
+
+    /* *text styles__________________________________________________________________ */
+    .text-md-start {
+        text-align: start;
+    }
+
+    .text-md-end {
+        text-align: end;
+    }
+}
+
+/* ?__________________________________________destok-mediun________________________________ */
+@media screen and (min-width:992px) {}
+
+
+/* ?_________________________________________destok-largue__________________________________ */
+@media screen and (min-width:1200px) {}
