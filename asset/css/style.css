@@ -14,6 +14,10 @@ body {
     color: #fff;
 }
 
+.text-white-hover:hover {
+    color: #fff;
+}
+
 .text-black {
     color: #212121;
 }
@@ -165,6 +169,10 @@ body {
     padding-top: 45px;
 }
 
+.pt-30 {
+    padding-top: 30px;
+}
+
 .pt-25 {
     padding-top: 25px;
 }
@@ -303,6 +311,10 @@ body {
     margin-bottom: 5px;
 }
 
+.ml-5 {
+    margin-left: 5px;
+}
+
 .ml-7 {
     margin-left: 7px;
 }
@@ -325,6 +337,10 @@ body {
 
 .mr-7 {
     margin-right: 7px;
+}
+
+.mr-5 {
+    margin-right: 5px;
 }
 
 /* ?_______________________________________________________font-size_____________________ */
@@ -379,6 +395,10 @@ body {
 }
 
 .bg-secundary {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.bg-secundary-hover {
     background-color: rgb(0 0 0 / 50%);
 }
 
@@ -447,6 +467,20 @@ body {
     transform: translateY(50px);
 }
 
+.ttransfor-y-30 {
+    transform: translateY(30px);
+    transition: 0.5s;
+}
+
+.social-transitions:hover .ttransfor-y-30 {
+    transform: translateY(0px);
+}
+
+/* .pack-social .ttransfor-y-20 {
+    transform: translateY(0px);
+    height: 50%;
+} */
+
 .date-blog {
     background-color: #7ab730;
     width: 55px;
@@ -497,4 +531,48 @@ body {
     content: "";
     display: block;
     padding-bottom: 66.47%;
+}
+
+.img-transitions {
+    transition: 0.5s;
+}
+
+/* 
+.img-transitions:hover {
+    transform: scale(1.2);
+} */
+
+.social-transitions:hover .img-transitions {
+    transform: scale(1.2);
+}
+
+.social-transitions:hover .pack-social {
+    opacity: 1;
+
+}
+
+.pack-social {
+    transition: 0.5s;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 50%);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #7ab730;
+    transition: 0.5s;
+}
+
+.social-icons:hover {
+    background-color: #7ab730;
+}
+
+.social-icons:hover .text-green-limon {
+    color: #fff;
 }
