@@ -15,11 +15,11 @@
     }
 
     /* *____________________________________________________________________width */
-    .w-lg-40 {
+    .w-md-40 {
         width: 40%;
     }
 
-    .w-lg-60 {
+    .w-md-60 {
         width: 60%;
     }
 
@@ -100,7 +100,7 @@
     }
 
     /* *______________________________________________________________________________margin */
-    .mt-lg-0 {
+    .mt-md-0 {
         margin-top: 0px;
     }
 
@@ -164,6 +164,10 @@
 
     /* *width____________________________________________________________________________ */
 
+    .w-lg-40 {
+        width: 40%;
+    }
+
     .w-lg-60 {
         width: 60%;
     }
@@ -177,7 +181,28 @@
         margin: auto;
     }
 
+    .mt-lg-0 {
+        margin-top: 0px;
+    }
+
+    .mt-lg-150 {
+        margin-top: 150px;
+    }
+
+    .ml-lg-10 {
+        margin-left: 10px;
+    }
+
+    .mr-lg-10 {
+        margin-right: 10px;
+    }
+
     /* *padding___________________________________________________________________________ */
+
+    .p-lg-10 {
+        padding: 10px;
+    }
+
     .pl-lg-10 {
         padding-left: 10px;
     }
@@ -202,8 +227,20 @@
         padding-right: 25px;
     }
 
+    .pr-lg-40 {
+        padding-right: 40px;
+    }
+
     .pt-lg-15 {
         padding-top: 15px;
+    }
+
+    .pt-lg-50 {
+        padding-top: 50px;
+    }
+
+    .pb-lg-50 {
+        padding-bottom: 50px;
     }
 
     .pb-lg-15 {
@@ -211,6 +248,10 @@
     }
 
     /* *____________________________________________________________________________font-size */
+    .fs-lg-15 {
+        font-size: 15px !important;
+    }
+
     .fs-lg-36 {
         font-size: 36px;
     }
@@ -241,8 +282,77 @@
     .right-lg-0 {
         right: 0;
     }
+
+    /* *clases especiales__________________________________________________________________ */
+    .bg-lg-norepeat {
+        background-repeat: no-repeat;
+    }
+
+    .bg-lg-sizecover {
+        background-size: cover;
+    }
+
+    .bg-lg-positionscenter {
+        background-position: center;
+    }
 }
 
 
 /* ?_________________________________________destok-largue__________________________________ */
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+
+    /* *______________________________________________________________________height */
+    .h-xl-730 {
+        height: 730px;
+    }
+
+    .h-xl-110vh {
+        height: 110vh;
+    }
+
+    /* *lados____________________________________________________________________________ */
+    .top-xl-70 {
+        top: 70px;
+    }
+
+    /* *___________________________________________________________________________font-size */
+    .fs-xl-40 {
+        font-size: 40px;
+    }
+
+    /* *padding_____________________________________________________________________ */
+    .pt-xl-15 {
+        padding-top: 15px;
+    }
+
+    .pb-xl-15 {
+        padding-bottom: 15px;
+    }
+
+    .pl-xl-40 {
+        padding-left: 40px;
+    }
+
+    .pr-xl-40 {
+        padding-right: 40px;
+    }
+
+    /* *_____________________________________________________________________margin */
+    .mb-xl-0 {
+        margin-bottom: 0px;
+    }
+
+    /* *clases especiales______________________________________________________________ */
+    .white-xl-space-nowrap {
+        white-space: nowrap;
+    }
+
+    .w-xl-80 {
+        width: 80%;
+    }
+
+    /* *____________________________________________________________________________width */
+    .w-xl-40 {
+        width: 40%;
+    }
+}

@@ -30,6 +30,10 @@ body {
     color: #7ab730;
 }
 
+.text-grey {
+    color: #656565;
+}
+
 /* ?__________________________________________texto-styles______________________________ */
 .text-center {
     text-align: center;
@@ -37,6 +41,10 @@ body {
 
 .text-dnone {
     text-decoration: none;
+}
+
+.text-decoration-underline:hover {
+    text-decoration: underline;
 }
 
 .letter-spancing-5 {
@@ -55,6 +63,7 @@ body {
 .bt-dark-white {
     border-top: 1px solid #dee2e6;
 }
+
 
 .b-rgba-grey {
     border: 1px solid rgb(0 0 0 / 10%);
@@ -512,13 +521,24 @@ body {
     outline: 2px groove #7ab730;
 }
 
+.focus-input:focus {
+    box-shadow: 0 0 5px #7ab730;
+    outline: 2px groove #8dce3e;
+}
+
+.vertical-midle {
+    vertical-align: middle;
+}
+
 .button-fixed {
     position: fixed;
     background-color: #7ab730;
     border: 1px solid #7ab730;
     width: 45px;
     height: 45px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 20px;
     right: 30px;
 }
@@ -575,4 +595,8 @@ body {
 
 .social-icons:hover .text-green-limon {
     color: #fff;
+}
+
+.box-textimonial {
+    box-shadow: 0px 0px 30px #cccccc;
 }
